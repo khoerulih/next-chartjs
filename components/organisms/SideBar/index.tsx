@@ -8,6 +8,7 @@ export default function SideBar() {
         <div className="menus mt-30">
           <SideBarItem title="Home" href="/" />
           <SideBarItem title="Mahasiswa" href="/mahasiswa" />
+          <SideBarItem title="Keuangan" href="/keuangan" />
         </div>
       </div>
     </section>

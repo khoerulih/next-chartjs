@@ -17,6 +17,8 @@
   display: flex;
   align-items: center;
   position: relative;
+  padding: 8px;
+  border-bottom: 1px solid white;
 }
 
 .sidebar .menus .item.active a,

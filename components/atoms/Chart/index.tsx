@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import Chart from 'chart.js/auto';
 
 interface ChartsProps {
-  chartType: 'line' | 'bar' | 'pie' | 'doughnut';
+  chartType: 'line' | 'bar' | 'pie' | 'doughnut' | 'bubble';
 }
 
 export default function Charts(props: Partial<ChartsProps>) {
