@@ -1,9 +1,8 @@
 .sidebar .content {
-  background: #ffffff;
-  width: 290px;
+  background: rgb(45, 108, 179);
+  width: 100%;
   position: relative;
-  height: 100vh;
-  position: fixed;
+  height: 100vw;
   top: 0;
   left: 0;
   z-index: 9;
@@ -45,7 +44,7 @@
 }
 
 .sidebar .menus .item a {
-  color: #7e8cac;
+  color: #e0e0e0;
   transition: all 0.2s linear;
 }
 

@@ -18,7 +18,7 @@ interface MenuItemProps {
 }
 
 export default function SideBarItem(props: Partial<MenuItemProps>) {
-  const { title, href = '/', onClick } = props;
+  const { title, href = '/' } = props;
   // const classItem = cx({
   //   item: true,
   //   'mb-30': true,
@@ -26,18 +26,14 @@ export default function SideBarItem(props: Partial<MenuItemProps>) {
   // });
 
   return (
-    <div onClick={onClick}>
+    <div className="item">
       <div className="me-3">
-        <Image src={`/vercel.svg`} width={25} height={25} />
+        <Image src="/vercel.svg" width={25} height={25} />
       </div>
       <p className="item-title m-0">
-        {onClick ? (
+        <Link href={href}>
           <a className="text-lg text-decoration-none">{title}</a>
-        ) : (
-          <Link href={href}>
-            <a className="text-lg text-decoration-none">{title}</a>
-          </Link>
-        )}
+        </Link>
       </p>
     </div>
   );

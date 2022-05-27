@@ -1,0 +1,14 @@
+.header-page {
+  display: flex;
+  background-color: white;
+  box-shadow: 4px 2px 33px -9px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 4px 2px 33px -9px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 4px 2px 33px -9px rgba(0, 0, 0, 0.75);
+  padding: 8px;
+  justify-content: end;
+}
+
+.header-title {
+  padding: 8dp;
+  font-size: 24px;
+}

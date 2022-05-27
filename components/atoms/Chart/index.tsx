@@ -88,9 +88,8 @@ export default function Charts(props: Partial<ChartsProps>) {
   });
 
   return (
-    // eslint-disable-next-line react/jsx-filename-extension
     <div>
-      <span>Data Mahasiswa</span>
+      {/* <span>Data Mahasiswa</span> */}
       <canvas id="myChart" ref={canvasEl} height="100" />
     </div>
   );
